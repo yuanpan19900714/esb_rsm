@@ -1,0 +1,5 @@
+>>>>NET
+netname,nrkps,nwkps,nrerr,nwerr,nprs,npws,nrsize,nwsize
+lo,0.15,0.15,0,0,1.8,1.8,0,0
+eth0,2,1.25,0,0,24.55,10.15,0,0
+sit0,0,0,0,0,0,0,0,0

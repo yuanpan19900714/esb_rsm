@@ -1,0 +1,6 @@
+NET,Network I/O esbver,lo-read-KB/s,eth0-read-KB/s,sit0-read-KB/s,lo-write-KB/s,eth0-write-KB/s,sit0-write-KB/s,
+NETPACKET,Network Packets esbver,lo-read/s,eth0-read/s,sit0-read/s,lo-write/s,eth0-write/s,sit0-write/s,
+NETPACKET,T0001,3.6,31.1,0.0,3.6,13.3,0.0,
+NETPACKET,T0002,0.0,18.0,0.0,0.0,7.0,0.0,
+NET,T0001,0.3,2.8,0.0,0.3,2.0,0.0,
+NET,T0002,0.0,1.2,0.0,0.0,0.5,0.0,

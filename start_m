@@ -1,0 +1,19 @@
+echo "start to stop esbmon agent"
+./stop_m
+export appname=AP1
+export monserver=128.160.12.216:9898
+#export JAVA_HOME=/usr/java6
+export CLASSPATH=./lib/esb_rsm.jar:./lib/MOMPlugIn.jar:./lib/log4j-1.2.8.jar:./lib/message-server-1.0.jar:$CLASSPATH
+echo $PATH
+echo "appname=$appname"
+echo "monserv=$monserver"
+echo "JAVA_HOME=$JAVA_HOME"
+echo "start to stop esbmon agent"
+./stop_m
+echo "start to run esbmon agent"
+nohup sh runesbmon.sh & 
+nohup sh clear.sh &
+tail -f nohup.out
+#nohup sh runesbmon.sh >a.log &
+#nohup sh clear.sh >b.log &
+#tail -f a.log

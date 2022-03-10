@@ -1,0 +1,3 @@
+CPU_ALL,CPU Total esbver,User%,Sys%,Wait%,Idle%,Busy,CPUs
+CPU_ALL,T0001,0.9,1.6,0.0,97.5,,4
+CPU_ALL,T0002,0.0,0.0,0.2,99.8,,4

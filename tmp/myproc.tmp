@@ -1,0 +1,838 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  10368   572 ?        Ss   Feb11   0:33 init [5]                                              
+root         2  0.0  0.0      0     0 ?        S<   Feb11  27:23 [migration/0]
+root         3  0.0  0.0      0     0 ?        SN   Feb11   0:01 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S<   Feb11  20:55 [migration/1]
+root         5  0.0  0.0      0     0 ?        SN   Feb11   0:05 [ksoftirqd/1]
+root         6  0.0  0.0      0     0 ?        S<   Feb11  20:48 [migration/2]
+root         7  0.0  0.0      0     0 ?        SN   Feb11   0:05 [ksoftirqd/2]
+root         8  0.0  0.0      0     0 ?        S<   Feb11  20:15 [migration/3]
+root         9  0.0  0.0      0     0 ?        SN   Feb11   0:05 [ksoftirqd/3]
+root        10  0.0  0.0      0     0 ?        S<   Feb11   0:14 [events/0]
+root        11  0.0  0.0      0     0 ?        S<   Feb11   0:00 [events/1]
+root        12  0.0  0.0      0     0 ?        S<   Feb11   0:00 [events/2]
+root        13  0.0  0.0      0     0 ?        S<   Feb11   0:00 [events/3]
+root        14  0.0  0.0      0     0 ?        S<   Feb11   0:00 [khelper]
+root        87  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kthread]
+root        94  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kblockd/0]
+root        95  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kblockd/1]
+root        96  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kblockd/2]
+root        97  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kblockd/3]
+root        98  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kacpid]
+root       260  0.0  0.0      0     0 ?        S<   Feb11   0:00 [cqueue/0]
+root       261  0.0  0.0      0     0 ?        S<   Feb11   0:00 [cqueue/1]
+root       262  0.0  0.0      0     0 ?        S<   Feb11   0:00 [cqueue/2]
+root       263  0.0  0.0      0     0 ?        S<   Feb11   0:00 [cqueue/3]
+root       266  0.0  0.0      0     0 ?        S<   Feb11   0:00 [khubd]
+root       268  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kseriod]
+tuxedo     300  0.0  0.0  84424  1792 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2009 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     301  0.0  0.0  84432  1792 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2010 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     302  0.0  0.0  84424  1796 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2011 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     303  0.0  0.0  84432  1796 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2012 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     304  0.0  0.0  84424  1800 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2013 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     305  0.0  0.0  84424  1804 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2014 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     306  0.0  0.0  84432  1788 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2055 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     307  0.0  0.0  84424  1796 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2056 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     308  0.0  0.0  84428  1792 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2057 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     309  0.0  0.0  84428  1792 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2058 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     310  0.0  0.0  84428  1804 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2059 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     311  0.0  0.0  84428  1804 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2060 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     312  0.0  0.0  84424  1808 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2061 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     313  0.0  0.0  84432  1808 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2062 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     314  0.0  0.0  84428  1808 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2063 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     315  0.0  0.0  84432  1816 ?        S    Feb12   0:00 zhjyew_01 -C dom=esbapp -g 4 -i 2064 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     316  0.0  0.0  84428  1812 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2105 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     317  0.0  0.0  84428  1816 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2106 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     318  0.0  0.0  84428  1820 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2107 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     319  0.0  0.0  84428  1824 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2108 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     320  0.0  0.0  84428  1820 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2109 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     321  0.0  0.0  84428  1824 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2110 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     322  0.0  0.0  84428  1824 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2111 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     323  0.0  0.0  84424  1836 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2112 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     324  0.0  0.0  84428  2724 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2113 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     325  0.0  0.0  84428  2252 ?        S    Feb12   0:00 zhjyew_02 -C dom=esbapp -g 4 -i 2114 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     326  0.0  0.0  84428  1824 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2155 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     327  0.0  0.0  84428  1824 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2156 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     328  0.0  0.0  84432  1824 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2157 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     329  0.0  0.0  84428  1828 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2158 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     330  0.0  0.0  84432  1828 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2159 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     331  0.0  0.0  84428  1832 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2160 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     332  0.0  0.0  84428  1832 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2161 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     333  0.0  0.0  84428  1836 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2162 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     334  0.0  0.0  84428  1836 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2163 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     335  0.0  0.0  84428  1836 ?        S    Feb12   0:00 zhjyew_03 -C dom=esbapp -g 4 -i 2164 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     336  0.0  0.0  84428  1836 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2205 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     337  0.0  0.0  84428  1844 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2206 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     338  0.0  0.0  84432  1844 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2207 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     339  0.0  0.0  84432  1844 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2208 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     340  0.0  0.0  84432  1848 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2209 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     341  0.0  0.0  84428  1848 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2210 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     342  0.0  0.0  84432  1852 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2211 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     343  0.0  0.0  84432  1856 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2212 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     344  0.0  0.0  84424  1856 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2213 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     345  0.0  0.0  84432  1860 ?        S    Feb12   0:00 zichan_01 -C dom=esbapp -g 4 -i 2214 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     346  0.0  0.0  84424  1852 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2255 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     347  0.0  0.0  84432  1852 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2256 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     348  0.0  0.0  84424  1860 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2257 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     349  0.0  0.0  84432  1856 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2258 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     350  0.0  0.0  84424  1864 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2259 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     351  0.0  0.0  84432  1864 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2260 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     352  0.0  0.0  84432  1864 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2261 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     353  0.0  0.0  84432  1872 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2262 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     354  0.0  0.0  84428  1868 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2263 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     355  0.0  0.0  84428  2768 ?        S    Feb12   0:00 zichan_02 -C dom=esbapp -g 4 -i 2264 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     356  0.0  0.0  84424  1872 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2305 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     357  0.0  0.0  84428  1872 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2306 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     358  0.0  0.0  84432  1876 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2307 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     359  0.0  0.0  84428  1876 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2308 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+root       360  0.0  0.0      0     0 ?        S    Feb11   0:23 [khungtaskd]
+root       362  0.0  0.0      0     0 ?        S    Feb11   0:48 [pdflush]
+root       363  0.0  0.0      0     0 ?        S<   Feb11   1:36 [kswapd0]
+root       364  0.0  0.0      0     0 ?        S<   Feb11   0:00 [aio/0]
+root       365  0.0  0.0      0     0 ?        S<   Feb11   0:00 [aio/1]
+root       366  0.0  0.0      0     0 ?        S<   Feb11   0:00 [aio/2]
+root       367  0.0  0.0      0     0 ?        S<   Feb11   0:00 [aio/3]
+tuxedo     368  0.0  0.0  84432  1876 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2309 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     369  0.0  0.0  84428  1884 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2310 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     370  0.0  0.0  84424  1880 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2311 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     371  0.0  0.0  84432  1884 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2312 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     372  0.0  0.0  84424  1888 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2313 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     373  0.0  0.0  84432  1888 ?        S    Feb12   0:00 zichan_03 -C dom=esbapp -g 4 -i 2314 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     374  0.0  0.0  84428  1884 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2355 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     375  0.0  0.0  84428  1888 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2356 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     376  0.0  0.0  84428  1888 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2357 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     377  0.0  0.0  84424  1892 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2358 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     378  0.0  0.0  84432  1892 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2359 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     379  0.0  0.0  84428  1892 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2360 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     380  0.0  0.0  84428  1900 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2361 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     381  0.0  0.0  84428  1896 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2362 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     382  0.0  0.0  84424  1896 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2363 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     383  0.0  0.0  84428  2808 ?        S    Feb12   0:00 zxang1_01 -C dom=esbapp -g 4 -i 2364 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     384  0.0  0.0  84428  1896 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2405 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     385  0.0  0.0  84432  1904 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2406 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     386  0.0  0.0  84428  1904 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2407 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     387  0.0  0.0  84428  1904 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2408 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     388  0.0  0.0  84428  1912 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2409 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     389  0.0  0.0  84428  1912 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2410 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     390  0.0  0.0  84432  1908 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2411 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     391  0.0  0.0  84424  1916 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2412 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     392  0.0  0.0  84428  1916 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2413 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     393  0.0  0.0  84428  1920 ?        S    Feb12   0:00 zxang1_02 -C dom=esbapp -g 4 -i 2414 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     394  0.0  0.0  84428  1916 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2455 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     395  0.0  0.0  84432  1916 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2456 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     396  0.0  0.0  84432  1924 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2457 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     397  0.0  0.0  84428  1920 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2458 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     398  0.0  0.0  84428  1928 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2459 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     399  0.0  0.0  84432  1936 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2460 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     400  0.0  0.0  84428  1936 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2461 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     401  0.0  0.0  84428  1936 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2462 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     402  0.0  0.0  84424  1936 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2463 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     403  0.0  0.0  84424  2832 ?        S    Feb12   0:00 zxang1_03 -C dom=esbapp -g 4 -i 2464 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     404  0.0  0.0  84432  1936 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2505 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     405  0.0  0.0  84428  1936 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2506 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     406  0.0  0.0  84432  1940 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2507 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     407  0.0  0.0  84428  1944 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2508 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     408  0.0  0.0  84428  1956 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2509 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     409  0.0  0.0  84428  1948 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2510 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     410  0.0  0.0  84428  1948 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2511 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     411  0.0  0.0  84424  1952 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2512 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     412  0.0  0.0  84428  1964 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2513 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     413  0.0  0.0  84432  2372 ?        S    Feb12   0:00 zxang2_01 -C dom=esbapp -g 4 -i 2514 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     414  0.0  0.0  84424  1944 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2555 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     415  0.0  0.0  84428  1948 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2556 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     416  0.0  0.0  84428  1952 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2557 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     417  0.0  0.0  84432  1952 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2558 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     418  0.0  0.0  84428  1952 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2559 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     419  0.0  0.0  84424  1952 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2560 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     420  0.0  0.0  84428  1956 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2561 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     421  0.0  0.0  84428  1956 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2562 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     422  0.0  0.0  84428  1964 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2563 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     423  0.0  0.0  84428  1960 ?        S    Feb12   0:00 zxang2_02 -C dom=esbapp -g 4 -i 2564 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     424  0.0  0.0  84428  1968 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2605 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     425  0.0  0.0  84428  1964 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2606 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     426  0.0  0.0  84428  1968 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2607 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     427  0.0  0.0  84428  1968 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2608 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     428  0.0  0.0  84424  1976 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2609 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     429  0.0  0.0  84424  1976 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2610 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     430  0.0  0.0  84428  1980 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2611 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     431  0.0  0.0  84432  1984 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2612 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     432  0.0  0.0  84428  1988 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2613 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     433  0.0  0.0  84424  1988 ?        S    Feb12   0:00 zxang2_03 -C dom=esbapp -g 4 -i 2614 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     434  0.0  0.0  84424  1980 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2655 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     435  0.0  0.0  84432  1984 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2656 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     436  0.0  0.0  84424  1988 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2657 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     437  0.0  0.0  84428  1988 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2658 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     438  0.0  0.0  84424  1992 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2659 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     439  0.0  0.0  84424  1996 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2660 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     440  0.0  0.0  84424  2000 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2661 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     441  0.0  0.0  84424  1996 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2662 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     442  0.0  0.0  84424  2008 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2663 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     443  0.0  0.0  84424  2420 ?        S    Feb12   0:00 IPPSRV -C dom=esbapp -g 4 -i 2664 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     444  0.0  0.0  84428  1992 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2705 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     445  0.0  0.0  84428  1996 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2706 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     446  0.0  0.0  84424  1996 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2707 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     447  0.0  0.0  84424  2000 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2708 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     448  0.0  0.0  84428  2008 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2709 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     449  0.0  0.0  84424  2004 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2710 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     450  0.0  0.0  84428  2004 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2711 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     451  0.0  0.0  84428  2008 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2712 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     452  0.0  0.0  84428  2008 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2713 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     453  0.0  0.0  84432  2012 ?        S    Feb12   0:00 IPPSRV_SP1 -C dom=esbapp -g 4 -i 2714 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     454  0.0  0.0  84428  2004 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2755 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     455  0.0  0.0  84428  2008 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2756 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     456  0.0  0.0  84424  2012 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2757 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     457  0.0  0.0  84424  2008 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2758 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     458  0.0  0.0  84432  2016 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2759 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     459  0.0  0.0  84428  2012 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2760 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     460  0.0  0.0  84432  2012 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2761 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     461  0.0  0.0  84428  2016 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2762 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     462  0.0  0.0  84424  2020 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2763 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     463  0.0  0.0  84424  2020 ?        S    Feb12   0:00 IPPSRV_SP2 -C dom=esbapp -g 4 -i 2764 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     464  0.0  0.0  84424  2024 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2805 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     465  0.0  0.0  84428  2020 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2806 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     466  0.0  0.0  84428  2024 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2807 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     467  0.0  0.0  84428  2032 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2808 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     468  0.0  0.0  84428  2024 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2809 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     469  0.0  0.0  84424  2036 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2810 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     470  0.0  0.0  84428  2032 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2811 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     471  0.0  0.0  84428  2032 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2812 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     472  0.0  0.0  84432  2044 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2813 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     473  0.0  0.0  84428  2036 ?        S    Feb12   0:00 IPPSRV_NXY -C dom=esbapp -g 4 -i 2814 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     474  0.0  0.0  84432  2032 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2855 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     475  0.0  0.0  84424  2032 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2856 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     476  0.0  0.0  84428  2032 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2857 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     477  0.0  0.0  84428  2036 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2858 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     478  0.0  0.0  84428  2044 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2859 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     479  0.0  0.0  84424  2040 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2860 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     480  0.0  0.0  84428  2056 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2861 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     481  0.0  0.0  84428  2048 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2862 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     482  0.0  0.0  84428  2056 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2863 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     483  0.0  0.0  84428  2048 ?        S    Feb12   0:00 IPPSRV_XJR -C dom=esbapp -g 4 -i 2864 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     484  0.0  0.0  84428  2048 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2905 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     485  0.0  0.0  84432  2052 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2906 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     486  0.0  0.0  84432  2052 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2907 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     487  0.0  0.0  84424  2052 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2908 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     488  0.0  0.0  84428  2064 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2909 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     489  0.0  0.0  84428  2064 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2910 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     490  0.0  0.0  84428  2060 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2911 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     491  0.0  0.0  84428  2068 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2912 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     492  0.0  0.0  84428  2068 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2913 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     493  0.0  0.0  84432  2068 ?        S    Feb12   0:00 IPPSRV_NET -C dom=esbapp -g 4 -i 2914 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     494  0.0  0.0  84432  2060 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2955 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     495  0.0  0.0  84428  2060 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2956 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     496  0.0  0.0  84432  2068 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2957 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     497  0.0  0.0  84428  2064 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2958 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     498  0.0  0.0  84428  2068 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2959 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     499  0.0  0.0  84428  2068 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2960 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     500  0.0  0.0  84428  2068 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2961 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     501  0.0  0.0  84424  2072 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2962 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     502  0.0  0.0  84428  2076 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2963 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     503  0.0  0.0  84428  2076 ?        S    Feb12   0:00 IPPSRV_DJK -C dom=esbapp -g 4 -i 2964 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     504  0.0  0.0  84424  2084 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3005 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     505  0.0  0.0  84428  2076 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3006 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     506  0.0  0.0  84428  2076 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3007 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     507  0.0  0.0  84428  2080 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3008 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     508  0.0  0.0  84424  2080 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3009 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     509  0.0  0.0  84428  2092 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3010 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     510  0.0  0.0  84424  2092 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3011 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     511  0.0  0.0  84428  2088 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3012 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     512  0.0  0.0  84432  2096 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3013 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     513  0.0  0.0  84428  2092 ?        S    Feb12   0:00 IPPSRV_MOB -C dom=esbapp -g 4 -i 3014 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     514  0.0  0.0  84424  2088 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3055 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     515  0.0  0.0  84424  2096 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3056 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     516  0.0  0.0  84420  2096 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3057 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     517  0.0  0.0  84420  2096 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3058 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     518  0.0  0.0  84424  2100 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3059 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     519  0.0  0.0  84428  2100 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3060 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     520  0.0  0.0  84420  2108 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3061 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     521  0.0  0.0  84424  3000 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3062 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     522  0.0  0.0  84420  3000 ?        S    Feb12   0:00 tler -C dom=esbapp -g 4 -i 3063 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     523  0.0  0.0  84420  2584 ?        S    Feb12   0:01 tler -C dom=esbapp -g 4 -i 3064 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     524  0.0  0.0  84424  2112 ?        S    Feb12   0:00 tler_afa -C dom=esbapp -g 4 -i 3105 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     525  0.0  0.0  84428  2116 ?        S    Feb12   0:00 tler_afa -C dom=esbapp -g 4 -i 3106 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     526  0.0  0.0  84424  2112 ?        S    Feb12   0:00 tler_afa -C dom=esbapp -g 4 -i 3107 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     527  0.0  0.0  84432  2116 ?        S    Feb12   0:00 tler_afa -C dom=esbapp -g 4 -i 3108 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     528  0.0  0.0  84428  2120 ?        S    Feb12   0:00 tler_afa -C dom=esbapp -g 4 -i 3109 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     529  0.0  0.0  84428  2120 ?        S    Feb12   0:00 tler_out -C dom=esbapp -g 4 -i 3155 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     530  0.0  0.0  84428  2116 ?        S    Feb12   0:00 tler_out -C dom=esbapp -g 4 -i 3156 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     531  0.0  0.0  84428  2120 ?        S    Feb12   0:00 tler_out -C dom=esbapp -g 4 -i 3157 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     532  0.0  0.0  84424  2124 ?        S    Feb12   0:00 tler_out -C dom=esbapp -g 4 -i 3158 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     533  0.0  0.0  84428  3016 ?        S    Feb12   0:00 tler_out -C dom=esbapp -g 4 -i 3159 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     534  0.0  0.0  84432  2120 ?        S    Feb12   0:00 tler_qdzh -C dom=esbapp -g 4 -i 3205 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     535  0.0  0.0  84432  2120 ?        S    Feb12   0:00 tler_qdzh -C dom=esbapp -g 4 -i 3206 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     536  0.0  0.0  84424  2128 ?        S    Feb12   0:00 tler_qdzh -C dom=esbapp -g 4 -i 3207 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     537  0.0  0.0  84428  2124 ?        S    Feb12   0:00 tler_qdzh -C dom=esbapp -g 4 -i 3208 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     538  0.0  0.0  84432  2124 ?        S    Feb12   0:00 tler_qdzh -C dom=esbapp -g 4 -i 3209 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     539  0.0  0.0  84428  2132 ?        S    Feb12   0:00 tler_xlhk -C dom=esbapp -g 4 -i 3255 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     540  0.0  0.0  84428  2136 ?        S    Feb12   0:00 tler_xlhk -C dom=esbapp -g 4 -i 3256 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     541  0.0  0.0  84432  2132 ?        S    Feb12   0:00 tler_xlhk -C dom=esbapp -g 4 -i 3257 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     542  0.0  0.0  84424  2136 ?        S    Feb12   0:00 tler_xlhk -C dom=esbapp -g 4 -i 3258 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     543  0.0  0.0  84432  2136 ?        S    Feb12   0:00 tler_xlhk -C dom=esbapp -g 4 -i 3259 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     544  0.0  0.0  84424  2148 ?        S    Feb12   0:00 tler_zhlc -C dom=esbapp -g 4 -i 3305 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     545  0.0  0.0  84428  2140 ?        S    Feb12   0:00 tler_zhlc -C dom=esbapp -g 4 -i 3306 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     546  0.0  0.0  84428  2140 ?        S    Feb12   0:00 tler_zhlc -C dom=esbapp -g 4 -i 3307 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     547  0.0  0.0  84424  2148 ?        S    Feb12   0:00 tler_zhlc -C dom=esbapp -g 4 -i 3308 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     548  0.0  0.0  84428  2148 ?        S    Feb12   0:00 tler_zhlc -C dom=esbapp -g 4 -i 3309 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     549  0.0  0.0  84424  2144 ?        S    Feb12   0:00 tler_afe -C dom=esbapp -g 4 -i 3355 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     550  0.0  0.0  84424  2152 ?        S    Feb12   0:00 tler_afe -C dom=esbapp -g 4 -i 3356 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     551  0.0  0.0  84424  2148 ?        S    Feb12   0:00 tler_afe -C dom=esbapp -g 4 -i 3357 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     552  0.0  0.0  84424  2156 ?        S    Feb12   0:00 tler_afe -C dom=esbapp -g 4 -i 3358 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     553  0.0  0.0  84428  2152 ?        S    Feb12   0:00 tler_afe -C dom=esbapp -g 4 -i 3359 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     554  0.0  0.0  84432  2148 ?        S    Feb12   0:00 lcyh -C dom=esbapp -g 4 -i 3855 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     555  0.0  0.0  84428  2156 ?        S    Feb12   0:00 lcyh -C dom=esbapp -g 4 -i 3856 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     556  0.0  0.0  84424  2152 ?        S    Feb12   0:00 lcyh -C dom=esbapp -g 4 -i 3857 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     557  0.0  0.0  84428  2164 ?        S    Feb12   0:00 lcyh -C dom=esbapp -g 4 -i 3858 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo     558  0.0  0.0  84428  2636 ?        S    Feb12   0:01 lcyh -C dom=esbapp -g 4 -i 3859 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+root       573  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kpsmoused]
+tuxedo     577  0.0  0.0  20540  1476 ?        S    Feb12   2:13 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     579  0.0  0.0  20540  1476 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     580  0.0  0.0  20540  1508 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     582  0.0  0.0  20540  1476 ?        S    Feb12   2:13 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     583  0.0  0.0  20540  1476 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     584  0.0  0.0  20540  1472 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     585  0.0  0.0  20540  1500 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     586  0.0  0.0  20540  1504 ?        S    Feb12   2:11 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     587  0.0  0.0  20540  1504 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     588  0.0  0.0  20540  1472 ?        S    Feb12   2:12 ./esbtuxproxy 6001 neijie_01 /home/tuxedo/esbtux/proxy/neijie_01.log 10
+tuxedo     600  0.0  0.0  20540  1552 ?        S    Feb12   0:00 ./ecif 6002 RQD_TUX /home/tuxedo/esbtux/proxy/RQD_TUX.log 5
+tuxedo     601  0.0  0.0  20540  1548 ?        S    Feb12   0:00 ./ecif 6002 RQD_TUX /home/tuxedo/esbtux/proxy/RQD_TUX.log 5
+tuxedo     602  0.0  0.0  20612  1556 ?        S    Feb12   0:00 ./ecif 6002 RQD_TUX /home/tuxedo/esbtux/proxy/RQD_TUX.log 5
+tuxedo     603  0.0  0.0  20624  1548 ?        S    Feb12   0:00 ./ecif 6002 RQD_TUX /home/tuxedo/esbtux/proxy/RQD_TUX.log 5
+tuxedo     604  0.0  0.0  20540  1484 ?        S    Feb12   0:00 ./ecif 6002 RQD_TUX /home/tuxedo/esbtux/proxy/RQD_TUX.log 5
+root       639  0.0  0.0      0     0 ?        S<   Feb11   0:00 [mpt_poll_0]
+root       640  0.0  0.0      0     0 ?        S<   Feb11   0:00 [mpt/0]
+root       641  0.0  0.0      0     0 ?        S<   Feb11   0:00 [scsi_eh_0]
+root       647  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ata/0]
+root       648  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ata/1]
+root       649  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ata/2]
+root       650  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ata/3]
+root       651  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ata_aux]
+root       662  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kstriped]
+root       683  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ksnapd]
+root       721  0.0  0.0      0     0 ?        S<   Feb11   5:09 [kjournald]
+root       747  0.0  0.0      0     0 ?        S<   Feb11   0:01 [kauditd]
+root       780  0.0  0.0  13080   368 ?        S<s  Feb11   0:00 /sbin/udevd -d
+root      1947  0.0  0.0  32728   564 ?        Ss   Feb13   0:00 /usr/sbin/sshd
+root      2244  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kmpathd/0]
+root      2245  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kmpathd/1]
+root      2246  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kmpathd/2]
+root      2247  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kmpathd/3]
+root      2249  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kmpath_handlerd]
+root      2271  0.0  0.0      0     0 ?        S<   Feb11   0:00 [kjournald]
+root      2721  0.0  0.0      0     0 ?        S<   Feb11   0:00 [vmmemctl]
+root      2876  0.0  0.0 144096  1804 ?        Sl   Feb11   6:06 /usr/sbin/vmtoolsd
+root      2942  0.0  0.0      0     0 ?        S<   Feb11   0:00 [iscsi_eh]
+root      3025  0.0  0.0      0     0 ?        S<   Feb11   0:00 [cnic_wq]
+root      3030  0.0  0.0      0     0 ?        S<   Feb11   0:00 [bnx2i_thread/0]
+root      3031  0.0  0.0      0     0 ?        S<   Feb11   0:00 [bnx2i_thread/1]
+root      3032  0.0  0.0      0     0 ?        S<   Feb11   0:00 [bnx2i_thread/2]
+root      3033  0.0  0.0      0     0 ?        S<   Feb11   0:00 [bnx2i_thread/3]
+root      3052  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_addr]
+root      3068  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_mcast]
+root      3070  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_inform]
+root      3071  0.0  0.0      0     0 ?        S<   Feb11   0:00 [local_sa]
+root      3076  0.0  0.0      0     0 ?        S<   Feb11   0:00 [iw_cm_wq]
+root      3083  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_cm/0]
+root      3084  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_cm/1]
+root      3085  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_cm/2]
+root      3086  0.0  0.0      0     0 ?        S<   Feb11   0:00 [ib_cm/3]
+root      3092  0.0  0.0      0     0 ?        S<   Feb11   0:00 [rdma_cm]
+root      3113  0.0  0.4  38936 32792 ?        S<Lsl Feb11   0:00 iscsiuio
+root      3119  0.0  0.0   4592   364 ?        Ss   Feb11   0:00 iscsid
+root      3120  0.0  0.0   5096  3048 ?        S<Ls Feb11   0:00 iscsid
+root      3345  0.0  0.0  92904   744 ?        S<sl Feb11   0:07 auditd
+root      3347  0.0  0.0 147364   968 ?        S<sl Feb11   0:03 /sbin/audispd
+root      3369  0.0  0.0   5928   616 ?        Ss   Feb11   0:01 syslogd -m 0
+root      3372  0.0  0.0   3824   388 ?        Ss   Feb11   0:00 klogd -x
+root      3468  0.0  0.0  10780   312 ?        Ss   Feb11   1:03 irqbalance
+rpc       3486  0.0  0.0   8072   452 ?        Ss   Feb11   0:00 portmap
+dbus      3501  0.0  0.0  21376   896 ?        Ss   Feb11   0:01 dbus-daemon --system
+root      3516  0.0  0.0  10452   532 ?        Ss   Feb11   0:00 /usr/sbin/hcid
+root      3520  0.0  0.0   5956   388 ?        Ss   Feb11   0:00 /usr/sbin/sdpd
+root      3550  0.0  0.0      0     0 ?        S<   Feb11   0:00 [krfcommd]
+root      3587  0.0  0.0  31304   600 ?        Ssl  Feb11   0:01 pcscd
+root      3597  0.0  0.0   3820   448 ?        Ss   Feb11   0:00 /usr/sbin/acpid
+68        3606  0.0  0.0  31660  1492 ?        Ss   Feb11   2:33 hald
+root      3607  0.0  0.0  21716   700 ?        S    Feb11   0:00 hald-runner
+68        3616  0.0  0.0  12344   692 ?        S    Feb11   0:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+68        3620  0.0  0.0  12344   692 ?        S    Feb11   0:00 hald-addon-keyboard: listening on /dev/input/event0
+root      3628  0.0  0.0  10252   600 ?        S    Feb11  11:01 hald-addon-storage: polling /dev/hdc
+root      3653  0.0  0.0  26344   272 ?        Ss   Feb11   0:00 ./hpiod
+root      3658  0.0  0.0 154872   888 ?        S    Feb11   0:00 /usr/bin/python ./hpssd.py
+root      3681  0.0  0.0   6476   280 ?        Ss   Feb11   0:00 gpm -m /dev/input/mice -t exps2
+root      3690  0.0  0.0  75724   624 ?        Ss   Feb11   0:01 crond
+root      3707  0.0  0.0  18752   336 ?        Ss   Feb11   0:00 /usr/sbin/atd
+root      3731  0.0  0.0  10728   356 ?        Ss   Feb11   0:00 /usr/bin/rhsmcertd 240 1440
+esb       3734  0.0  0.0  63860  1116 ?        S    Feb13   4:21 sh runesbmon.sh
+esb       3735  0.6  0.0  63860  1096 ?        S    Feb13 311:31 sh clear.sh
+avahi     3751  0.0  0.0  23296  1060 ?        Ss   Feb11   0:00 avahi-daemon: running [esbver.local]
+avahi     3752  0.0  0.0  23168   144 ?        Ss   Feb11   0:00 avahi-daemon: chroot helper
+root      3754  0.0  0.0 257472  3644 ?        SN   Feb11   0:01 /usr/bin/python -tt /usr/sbin/yum-updatesd
+root      3837  0.0  0.0  18436   268 ?        S    Feb11   0:00 /usr/sbin/smartd -q never
+root      3842  0.0  0.0   3812   400 tty1     Ss+  Feb11   0:00 /sbin/mingetty tty1
+root      3843  0.0  0.0   3812   396 tty2     Ss+  Feb11   0:00 /sbin/mingetty tty2
+root      3844  0.0  0.0   3812   396 tty3     Ss+  Feb11   0:00 /sbin/mingetty tty3
+root      3845  0.0  0.0   3812   396 tty4     Ss+  Feb11   0:00 /sbin/mingetty tty4
+root      3848  0.0  0.0   3812   396 tty5     Ss+  Feb11   0:00 /sbin/mingetty tty5
+root      3850  0.0  0.0   3812   396 tty6     Ss+  Feb11   0:00 /sbin/mingetty tty6
+root      3852  0.0  0.0 167648   920 ?        Ss   Feb11   0:00 /usr/sbin/gdm-binary -nodaemon
+root      3889  0.0  0.0 194760   772 ?        S    Feb11   0:00 /usr/sbin/gdm-binary -nodaemon
+root      3891  0.0  0.0 189888  1064 ?        Sl   Feb11   0:02 /usr/libexec/gdm-rh-security-token-helper
+root      3894  0.0  0.0  84988   928 tty7     Ss+  Feb11   0:00 /usr/bin/Xorg :0 -br -audit 0 -auth /var/gdm/:0.Xauth -nolisten tcp vt7
+gdm       3906  0.0  0.0 221968  1032 ?        Ss   Feb11   0:00 /usr/libexec/gdmgreeter
+esb       4238  0.0  0.0  63856  1052 ?        S    Mar06   0:00 /bin/sh ./StartMessageServer.sh
+esb       4241  1.3  7.3 2896624 597484 ?      Sl   Mar06 254:07 java -D64 -server -Xms1024m -Xmx2048m -cp . -jar run.jar Main SmartMOM
+esb       4988  0.0  0.0  63860  1124 ?        S    Mar12   0:00 /bin/sh ./startJournal.sh
+esb       5004  0.2 13.1 7998476 1076128 ?     Sl   Mar12  20:40 /opt/jdk1.6.0_21/bin/java -server -D64 -XX:PermSize=64M -XX:MaxPermSize=512m -Djava.awt.headless=true -Xmx4096m -Xms2048m -Dcontainer.mode=product -Dcom.dc.esb.deploy_path=../ -Desb.command.port=22226 com.dc.esb.startup.standalone.ESBStartup JOURNAL
+esb       8664  0.0  0.0  63860  1108 ?        S    16:06   0:00 sh esbmon.sh
+readlog   8870  0.0  0.0   3808   428 ?        S    16:06   0:00 sleep 30
+esb       8909  0.0  0.0  63856  1076 ?        S    16:06   0:00 sh /home/esb/esb_rsm/monsh_hrl/proc.sh /home/esb/esb_rsm/tmp
+esb       8911  0.0  0.0  65616   996 ?        R    16:06   0:00 ps aux
+esb      11491  0.5  2.1 2573696 173308 ?      Sl   Feb13 268:13 /opt/jdk1.6.0_21/bin/java -Djava.util.logging.config.file=/home/esb/EsbMonitor/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.endorsed.dirs=/home/esb/EsbMonitor/endorsed -classpath /home/esb/EsbMonitor/bin/bootstrap.jar -Dcatalina.base=/home/esb/EsbMonitor -Dcatalina.home=/home/esb/EsbMonitor -Djava.io.tmpdir=/home/esb/EsbMonitor/temp org.apache.catalina.startup.Bootstrap start
+esb      13373  0.0  0.0  63860  1140 pts/2    S    15:41   0:00 /bin/sh ./startConsole.sh
+esb      13390  3.5  6.8 1651720 559056 pts/2  Sl   15:41   0:51 /opt/jdk1.6.0_21/bin/java -XX:PermSize=64M -XX:MaxNewSize=256m -XX:MaxPermSize=128m -Djava.awt.headless=true -Xmx1024m -Xms512m -Dcontainer.mode=product -Dcom.dc.esb.deploy_path=../ -Desb.command.port=22224 com.dc.esb.startup.standalone.ESBStartup CONSOLE
+esb      15314  0.0  0.0  63860  1124 pts/2    S    15:42   0:00 /bin/sh ./startSmart.sh
+esb      15330 40.2 25.2 9440136 2063792 pts/2 Sl   15:42   9:22 /opt/jdk1.6.0_21/bin/java -server -D64 -XX:PermSize=64M -XX:MaxPermSize=512m -Djava.awt.headless=true -Xmx4096m -Xms2048m -Dcontainer.mode=product -Dcom.dc.esb.deploy_path=../ -Desb.command.port=22228 -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=11118,server=y,suspend=n -Dcom.dc.inout.integrated=true -Dcom.dc.inout.shortcircurt=true -Dcom.dc.inout.blocking=true -Dcom.dc.blockingqueue.count=50 com.dc.esb.startup.standalone.ESBStartup IN OUT ROUTER
+root     20675  0.0  0.0  36464  2640 ?        Ss   09:12   0:00 sshd: tuxedo@pts/1
+root     20849  0.0  0.0  52128  1416 ?        Ss   09:12   0:00 login -- tuxedo                      
+tuxedo   20850  0.0  0.0  66212  1632 pts/1    Ss+  09:12   0:00 -bash
+esb      21739  0.0  0.0  63860  1124 ?        S    Mar12   0:00 /bin/sh ./startFlow.sh
+esb      21755  0.2 10.7 6448560 875416 ?      Sl   Mar12  20:36 /opt/jdk1.6.0_21/bin/java -server -D64 -XX:PermSize=64M -XX:MaxPermSize=512m -Djava.awt.headless=true -Xmx4096m -Xms2048m -Dcontainer.mode=product -Dcom.dc.esb.deploy_path=../ -Desb.command.port=22225 com.dc.esb.startup.standalone.ESBStartup FLOW
+esb      23141  0.0  0.0  58916   508 ?        S    16:00   0:00 sleep 3600
+readlog  23522  0.0  0.0   8728  1064 ?        S    16:00   0:00 /bin/sh ./agent/agent-start-linux.sh
+root     26826  0.0  0.0  36464  2712 ?        Ss   15:33   0:00 sshd: esb@pts/2  
+root     26839  0.0  0.0  52128  1412 ?        Ss   15:33   0:00 login -- esb                      
+esb      26840  0.0  0.0  66208  1656 pts/2    Ss+  15:33   0:00 -bash
+root     28519  0.0  0.0      0     0 ?        S    Feb26   0:00 [pdflush]
+tuxedo   32316  0.0  0.0  91616  3360 ?        S    Feb12   1:23 BBL -C dom=esbapp -g 30002 -i 0 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32317  0.0  0.0  91800  1380 ?        S    Feb12   0:00 DMADM -C dom=esbapp -g 21 -i 132 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32318  0.0  0.0  88568  1616 ?        S    Feb12   0:01 GWADM -C dom=esbapp -g 31 -i 142 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32321  0.0  0.0  85704  1444 ?        S    Feb12   0:00 WSL -C dom=esbapp -g 11 -i 1 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A -t -- -n //128.160.12.216:8000 -m2 -M 10 -x 10
+tuxedo   32322  0.0  0.0  88900  1384 ?        S    Feb12   0:00 WSH -c 11 -i 0 -s 4882440 -p 2048 -P 65535
+tuxedo   32323  0.0  0.0  88900  1392 ?        S    Feb12   0:00 WSH -c 11 -i 1 -s 4882440 -p 2048 -P 65535
+tuxedo   32324  0.0  0.0  88724  1652 ?        S    Feb12   5:00 JSL -C dom=esbapp -g 5 -i 201 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A -- -n //128.160.12.216:8910 -m 50 -M 80 -x 15 -T 3
+tuxedo   32325  0.0  0.0  89136  3512 ?        S    Feb12   0:01 JSH -c 16 -i 0 -s 4915209
+tuxedo   32326  0.0  0.0  89136  3548 ?        S    Feb12   0:01 JSH -c 16 -i 1 -s 4915209
+tuxedo   32327  0.0  0.0  89140  3704 ?        S    Feb12   0:01 JSH -c 16 -i 2 -s 4915209
+tuxedo   32328  0.0  0.0  89136  3728 ?        S    Feb12   0:01 JSH -c 16 -i 3 -s 4915209
+tuxedo   32329  0.0  0.0  89140  3516 ?        S    Feb12   0:00 JSH -c 16 -i 4 -s 4915209
+tuxedo   32330  0.0  0.0  89136  3516 ?        S    Feb12   0:01 JSH -c 16 -i 5 -s 4915209
+tuxedo   32331  0.0  0.0  89144  3540 ?        S    Feb12   0:01 JSH -c 16 -i 6 -s 4915209
+tuxedo   32332  0.0  0.0  89136  3720 ?        S    Feb12   0:01 JSH -c 16 -i 7 -s 4915209
+tuxedo   32333  0.0  0.0  89136  3696 ?        S    Feb12   0:01 JSH -c 16 -i 8 -s 4915209
+tuxedo   32334  0.0  0.0  89140  3552 ?        S    Feb12   0:01 JSH -c 16 -i 9 -s 4915209
+tuxedo   32335  0.0  0.0  89140  3736 ?        S    Feb12   0:01 JSH -c 16 -i 10 -s 4915209
+tuxedo   32336  0.0  0.0  89140  3488 ?        S    Feb12   0:01 JSH -c 16 -i 11 -s 4915209
+tuxedo   32337  0.0  0.0  89144  3516 ?        S    Feb12   0:01 JSH -c 16 -i 12 -s 4915209
+tuxedo   32338  0.0  0.0  89140  3524 ?        S    Feb12   0:01 JSH -c 16 -i 13 -s 4915209
+tuxedo   32339  0.0  0.0  89140  3712 ?        S    Feb12   0:01 JSH -c 16 -i 14 -s 4915209
+tuxedo   32340  0.0  0.0  89144  3724 ?        S    Feb12   0:00 JSH -c 16 -i 15 -s 4915209
+tuxedo   32341  0.0  0.0  89136  3520 ?        S    Feb12   0:01 JSH -c 16 -i 16 -s 4915209
+tuxedo   32342  0.0  0.0  89140  3516 ?        S    Feb12   0:01 JSH -c 16 -i 17 -s 4915209
+tuxedo   32343  0.0  0.0  89140  3496 ?        S    Feb12   0:01 JSH -c 16 -i 18 -s 4915209
+tuxedo   32344  0.0  0.0  89136  3528 ?        S    Feb12   0:01 JSH -c 16 -i 19 -s 4915209
+tuxedo   32345  0.0  0.0  89136  3536 ?        S    Feb12   0:01 JSH -c 16 -i 20 -s 4915209
+tuxedo   32346  0.0  0.0  89140  4616 ?        S    Feb12   0:01 JSH -c 16 -i 21 -s 4915209
+tuxedo   32347  0.0  0.0  89140  3528 ?        S    Feb12   0:01 JSH -c 16 -i 22 -s 4915209
+tuxedo   32348  0.0  0.0  89144  3516 ?        S    Feb12   0:01 JSH -c 16 -i 23 -s 4915209
+tuxedo   32349  0.0  0.0  89136  3524 ?        S    Feb12   0:01 JSH -c 16 -i 24 -s 4915209
+tuxedo   32350  0.0  0.0  89140  3532 ?        S    Feb12   0:01 JSH -c 16 -i 25 -s 4915209
+tuxedo   32351  0.0  0.0  89144  3544 ?        S    Feb12   0:01 JSH -c 16 -i 26 -s 4915209
+tuxedo   32352  0.0  0.0  89136  4636 ?        S    Feb12   0:01 JSH -c 16 -i 27 -s 4915209
+tuxedo   32353  0.0  0.0  89136  4628 ?        S    Feb12   0:01 JSH -c 16 -i 28 -s 4915209
+tuxedo   32354  0.0  0.0  89140  4448 ?        S    Feb12   0:01 JSH -c 16 -i 29 -s 4915209
+tuxedo   32355  0.0  0.0  89140  3712 ?        S    Feb12   0:01 JSH -c 16 -i 30 -s 4915209
+tuxedo   32356  0.0  0.0  89140  3708 ?        S    Feb12   0:01 JSH -c 16 -i 31 -s 4915209
+tuxedo   32357  0.0  0.0  89140  3512 ?        S    Feb12   0:00 JSH -c 16 -i 32 -s 4915209
+tuxedo   32358  0.0  0.0  89136  3528 ?        S    Feb12   0:00 JSH -c 16 -i 33 -s 4915209
+tuxedo   32359  0.0  0.0  89140  3712 ?        S    Feb12   0:01 JSH -c 16 -i 34 -s 4915209
+tuxedo   32360  0.0  0.0  89136  3752 ?        S    Feb12   0:01 JSH -c 16 -i 35 -s 4915209
+tuxedo   32361  0.0  0.0  89136  3528 ?        S    Feb12   0:01 JSH -c 16 -i 36 -s 4915209
+tuxedo   32362  0.0  0.0  89140  3720 ?        S    Feb12   0:01 JSH -c 16 -i 37 -s 4915209
+tuxedo   32363  0.0  0.0  89136  3700 ?        S    Feb12   0:01 JSH -c 16 -i 38 -s 4915209
+tuxedo   32364  0.0  0.0  89136  3716 ?        S    Feb12   0:01 JSH -c 16 -i 39 -s 4915209
+tuxedo   32365  0.0  0.0  89140  3712 ?        S    Feb12   0:01 JSH -c 16 -i 40 -s 4915209
+tuxedo   32366  0.0  0.0  89140  3516 ?        S    Feb12   0:01 JSH -c 16 -i 41 -s 4915209
+tuxedo   32367  0.0  0.0  89140  3548 ?        S    Feb12   0:01 JSH -c 16 -i 42 -s 4915209
+tuxedo   32368  0.0  0.0  89140  3516 ?        S    Feb12   0:01 JSH -c 16 -i 43 -s 4915209
+tuxedo   32369  0.0  0.0  89140  3748 ?        S    Feb12   0:01 JSH -c 16 -i 44 -s 4915209
+tuxedo   32370  0.0  0.0  89144  3724 ?        S    Feb12   0:00 JSH -c 16 -i 45 -s 4915209
+tuxedo   32371  0.0  0.0  89140  3736 ?        S    Feb12   0:01 JSH -c 16 -i 46 -s 4915209
+tuxedo   32372  0.0  0.0  89140  3508 ?        S    Feb12   0:01 JSH -c 16 -i 47 -s 4915209
+tuxedo   32373  0.0  0.0  89140  3736 ?        S    Feb12   0:00 JSH -c 16 -i 48 -s 4915209
+tuxedo   32374  0.0  0.0  89140  3528 ?        S    Feb12   0:01 JSH -c 16 -i 49 -s 4915209
+tuxedo   32375  0.0  0.0  84708  1704 ?        S    Feb12   0:00 JREPSVR -C dom=esbapp -g 6 -i 202 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A -- -W -P /home/tuxedo/tuxedo11gR1/udataobj/jolt/repository/jrepository
+tuxedo   32376  0.0  0.0  84428  1220 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 205 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32377  0.0  0.0  84428  1224 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 206 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32378  0.0  0.0  84424  1224 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 207 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32379  0.0  0.0  84424  1224 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 208 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32380  0.0  0.0  84432  1232 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 209 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32381  0.0  0.0  84424  1228 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 210 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32382  0.0  0.0  84424  1228 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 211 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32383  0.0  0.0  84424  2124 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 212 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32384  0.0  0.0  84428  2124 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 213 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32385  0.0  0.0  84428  1708 ?        S    Feb12   0:00 canshu_01 -C dom=esbapp -g 4 -i 214 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32386  0.0  0.0  84432  1240 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 255 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32387  0.0  0.0  84424  1240 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 256 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32388  0.0  0.0  84424  1252 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 257 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32389  0.0  0.0  84432  1248 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 258 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32390  0.0  0.0  84428  1248 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 259 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32391  0.0  0.0  84432  1252 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 260 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32392  0.0  0.0  84432  1252 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 261 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32393  0.0  0.0  84424  1256 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 262 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32394  0.0  0.0  84432  1256 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 263 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32395  0.0  0.0  84428  1256 ?        S    Feb12   0:00 canshu_02 -C dom=esbapp -g 4 -i 264 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32396  0.0  0.0  84428  1256 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 305 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32397  0.0  0.0  84428  1252 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 306 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32398  0.0  0.0  84428  1252 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 307 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32399  0.0  0.0  84432  1260 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 308 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32400  0.0  0.0  84424  1260 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 309 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32401  0.0  0.0  84432  1264 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 310 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32402  0.0  0.0  84428  1268 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 311 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32403  0.0  0.0  84424  1268 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 312 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32404  0.0  0.0  84424  1276 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 313 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32405  0.0  0.0  84432  1272 ?        S    Feb12   0:00 canshu_03 -C dom=esbapp -g 4 -i 314 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32406  0.0  0.0  84432  1272 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 355 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32407  0.0  0.0  84424  1276 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 356 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32408  0.0  0.0  84428  1276 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 357 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32409  0.0  0.0  84428  1276 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 358 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32410  0.0  0.0  84432  1280 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 359 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32411  0.0  0.0  84432  1280 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 360 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32412  0.0  0.0  84432  1288 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 361 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32413  0.0  0.0  84428  1284 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 362 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32414  0.0  0.0  84424  2180 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 363 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32415  0.0  0.0  84428  1776 ?        S    Feb12   0:00 chaxn1_01 -C dom=esbapp -g 4 -i 364 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32416  0.0  0.0  84432  1284 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 405 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32417  0.0  0.0  84428  1284 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 406 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32418  0.0  0.0  84428  1288 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 407 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32419  0.0  0.0  84424  1288 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 408 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32420  0.0  0.0  84424  1296 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 409 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32421  0.0  0.0  84428  1292 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 410 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32422  0.0  0.0  84432  1292 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 411 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32423  0.0  0.0  84424  1296 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 412 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32424  0.0  0.0  84428  1296 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 413 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32425  0.0  0.0  84432  2192 ?        S    Feb12   0:00 chaxn1_02 -C dom=esbapp -g 4 -i 414 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32426  0.0  0.0  84428  1300 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 455 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32427  0.0  0.0  84432  1300 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 456 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32428  0.0  0.0  84428  1312 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 457 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32429  0.0  0.0  84428  1308 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 458 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32430  0.0  0.0  84428  1308 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 459 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32431  0.0  0.0  84432  1312 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 460 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32432  0.0  0.0  84428  1312 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 461 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32433  0.0  0.0  84424  1312 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 462 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32434  0.0  0.0  84428  1316 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 463 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32435  0.0  0.0  84428  2212 ?        S    Feb12   0:00 chaxn1_03 -C dom=esbapp -g 4 -i 464 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32436  0.0  0.0  84428  1320 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 505 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32437  0.0  0.0  84424  1320 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 506 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32438  0.0  0.0  84428  1320 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 507 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32439  0.0  0.0  84428  1328 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 508 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32440  0.0  0.0  84428  1328 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 509 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32441  0.0  0.0  84428  1332 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 510 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32442  0.0  0.0  84432  1336 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 511 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32443  0.0  0.0  84428  1336 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 512 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32444  0.0  0.0  84428  1340 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 513 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32445  0.0  0.0  84432  1772 ?        S    Feb12   0:00 chaxn2_01 -C dom=esbapp -g 4 -i 514 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32446  0.0  0.0  84432  1332 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 555 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32447  0.0  0.0  84424  1336 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 556 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32448  0.0  0.0  84428  1336 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 557 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32449  0.0  0.0  84428  1336 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 558 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32450  0.0  0.0  84424  1340 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 559 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32451  0.0  0.0  84428  1340 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 560 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32452  0.0  0.0  84424  1344 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 561 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32453  0.0  0.0  84428  1344 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 562 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32454  0.0  0.0  84428  1348 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 563 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32455  0.0  0.0  84432  2260 ?        S    Feb12   0:00 chaxn2_02 -C dom=esbapp -g 4 -i 564 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32456  0.0  0.0  84432  1344 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 605 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32457  0.0  0.0  84428  1344 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 606 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32458  0.0  0.0  84424  1352 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 607 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32459  0.0  0.0  84432  1348 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 608 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32460  0.0  0.0  84428  1352 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 609 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32461  0.0  0.0  84428  1352 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 610 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32462  0.0  0.0  84432  1352 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 611 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32463  0.0  0.0  84424  1356 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 612 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32464  0.0  0.0  84428  1356 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 613 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32465  0.0  0.0  84428  1776 ?        S    Feb12   0:00 chaxn2_03 -C dom=esbapp -g 4 -i 614 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32466  0.0  0.0  84432  1360 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 655 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32467  0.0  0.0  84428  1368 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 656 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32468  0.0  0.0  84428  1368 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 657 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32469  0.0  0.0  84432  1368 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 658 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32470  0.0  0.0  84428  1368 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 659 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32471  0.0  0.0  84428  1368 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 660 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32472  0.0  0.0  84424  1372 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 661 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32473  0.0  0.0  84428  1372 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 662 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32474  0.0  0.0  84424  1376 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 663 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32475  0.0  0.0  84424  2280 ?        S    Feb12   0:00 fuzha2_01 -C dom=esbapp -g 4 -i 664 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32476  0.0  0.0  84428  1380 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 705 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32477  0.0  0.0  84428  1384 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 706 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32478  0.0  0.0  84428  1388 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 707 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32479  0.0  0.0  84432  1388 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 708 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32480  0.0  0.0  84424  1392 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 709 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32481  0.0  0.0  84428  1396 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 710 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32482  0.0  0.0  84432  1404 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 711 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32483  0.0  0.0  84428  1404 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 712 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32484  0.0  0.0  84428  1404 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 713 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32485  0.0  0.0  84432  2300 ?        S    Feb12   0:00 fuzha2_02 -C dom=esbapp -g 4 -i 714 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32486  0.0  0.0  84424  1396 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 755 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32487  0.0  0.0  84432  1396 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 756 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32488  0.0  0.0  84428  1400 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 757 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32489  0.0  0.0  84428  1404 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 758 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32490  0.0  0.0  84428  1408 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 759 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32491  0.0  0.0  84428  1408 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 760 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32492  0.0  0.0  84432  1408 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 761 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32493  0.0  0.0  84432  1412 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 762 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32494  0.0  0.0  84424  1416 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 763 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32495  0.0  0.0  84428  2312 ?        S    Feb12   0:00 fuzha2_03 -C dom=esbapp -g 4 -i 764 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32496  0.0  0.0  84428  1412 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 805 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32497  0.0  0.0  84432  1416 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 806 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32498  0.0  0.0  84432  1416 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 807 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32499  0.0  0.0  84424  1420 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 808 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32500  0.0  0.0  84428  1420 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 809 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32514  0.0  0.0  84428  1424 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 810 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32520  0.0  0.0  84428  1424 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 811 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32521  0.0  0.0  84428  1424 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 812 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32522  0.0  0.0  84428  1432 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 813 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32523  0.0  0.0  84428  2324 ?        S    Feb12   0:00 fuzhai_01 -C dom=esbapp -g 4 -i 814 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32524  0.0  0.0  84432  1424 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 855 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32525  0.0  0.0  84424  1432 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 856 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32526  0.0  0.0  84424  1432 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 857 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32527  0.0  0.0  84432  1436 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 858 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32528  0.0  0.0  84424  1436 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 859 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32529  0.0  0.0  84432  1440 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 860 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32530  0.0  0.0  84428  1444 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 861 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32531  0.0  0.0  84424  1444 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 862 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32532  0.0  0.0  84432  1444 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 863 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32533  0.0  0.0  84428  1864 ?        S    Feb12   0:00 fuzhai_02 -C dom=esbapp -g 4 -i 864 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32534  0.0  0.0  84424  1436 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 905 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32535  0.0  0.0  84428  1444 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 906 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32536  0.0  0.0  84428  1444 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 907 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32537  0.0  0.0  84428  1448 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 908 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32538  0.0  0.0  84424  1452 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 909 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32539  0.0  0.0  84432  1456 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 910 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32540  0.0  0.0  84428  1456 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 911 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32541  0.0  0.0  84432  1460 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 912 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32542  0.0  0.0  84432  2348 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 913 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32543  0.0  0.0  84428  1948 ?        S    Feb12   0:00 fuzhai_03 -C dom=esbapp -g 4 -i 914 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32544  0.0  0.0  84428  1456 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 955 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32545  0.0  0.0  84428  1456 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 956 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32546  0.0  0.0  84432  1460 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 957 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32547  0.0  0.0  84432  1460 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 958 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32548  0.0  0.0  84432  1460 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 959 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32549  0.0  0.0  84424  1464 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 960 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32550  0.0  0.0  84428  1464 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 961 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32551  0.0  0.0  84424  2360 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 962 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32552  0.0  0.0  84432  2368 ?        S    Feb12   0:00 ggxinx_01 -C dom=esbapp -g 4 -i 963 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32553  0.0  0.0  84428  1956 ?        S    Feb12   0:01 ggxinx_01 -C dom=esbapp -g 4 -i 964 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32554  0.0  0.0  84432  1476 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1005 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32555  0.0  0.0  84428  1472 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1006 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32556  0.0  0.0  84428  1472 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1007 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32557  0.0  0.0  84424  1476 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1008 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32558  0.0  0.0  84424  1476 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1009 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32559  0.0  0.0  84432  1480 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1010 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32560  0.0  0.0  84432  1488 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1011 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32561  0.0  0.0  84428  1484 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1012 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32562  0.0  0.0  84424  2380 ?        S    Feb12   0:00 ggxinx_02 -C dom=esbapp -g 4 -i 1013 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32563  0.0  0.0  84432  1964 ?        S    Feb12   0:01 ggxinx_02 -C dom=esbapp -g 4 -i 1014 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32564  0.0  0.0  84424  1492 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1055 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32565  0.0  0.0  84428  1500 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1056 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32566  0.0  0.0  84432  1504 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1057 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32567  0.0  0.0  84428  1504 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1058 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32568  0.0  0.0  84428  1508 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1059 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32569  0.0  0.0  84428  1508 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1060 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32570  0.0  0.0  84432  1516 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1061 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32571  0.0  0.0  84424  1512 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1062 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32572  0.0  0.0  84432  1512 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1063 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32573  0.0  0.0  84428  1520 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1064 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32574  0.0  0.0  84428  1520 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1065 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32575  0.0  0.0  84432  1524 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1066 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32576  0.0  0.0  84424  1924 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1067 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32577  0.0  0.0  84428  1936 ?        S    Feb12   0:00 ggxinx_03 -C dom=esbapp -g 4 -i 1068 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32578  0.0  0.0  84432  2000 ?        S    Feb12   0:01 ggxinx_03 -C dom=esbapp -g 4 -i 1069 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32579  0.0  0.0  84428  1508 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1105 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32580  0.0  0.0  84424  1504 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1106 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32581  0.0  0.0  84428  1512 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1107 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32582  0.0  0.0  84428  1512 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1108 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32583  0.0  0.0  84428  1512 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1109 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32584  0.0  0.0  84424  1516 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1110 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32585  0.0  0.0  84424  1520 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1111 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32586  0.0  0.0  84432  1516 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1112 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32587  0.0  0.0  84428  1520 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1113 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32588  0.0  0.0  84428  2416 ?        S    Feb12   0:00 jsuan1_01 -C dom=esbapp -g 4 -i 1114 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32589  0.0  0.0  84432  1524 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1155 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32590  0.0  0.0  84428  1524 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1156 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32591  0.0  0.0  84428  1524 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1157 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32592  0.0  0.0  84428  1532 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1158 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32593  0.0  0.0  84424  1532 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1159 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32594  0.0  0.0  84428  1532 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1160 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32595  0.0  0.0  84428  1536 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1161 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32596  0.0  0.0  84428  1536 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1162 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32597  0.0  0.0  84424  1540 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1163 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32598  0.0  0.0  84432  2140 ?        S    Feb12   0:00 jsuan1_02 -C dom=esbapp -g 4 -i 1164 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32599  0.0  0.0  84424  1532 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1205 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32600  0.0  0.0  84428  1536 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1206 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32601  0.0  0.0  84432  1536 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1207 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32602  0.0  0.0  84432  1540 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1208 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32603  0.0  0.0  84424  1544 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1209 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32604  0.0  0.0  84428  1544 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1210 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32605  0.0  0.0  84428  1556 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1211 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32606  0.0  0.0  84428  1552 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1212 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32607  0.0  0.0  84424  1552 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1213 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32608  0.0  0.0  84432  1560 ?        S    Feb12   0:00 jsuan1_03 -C dom=esbapp -g 4 -i 1214 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32609  0.0  0.0  84428  1548 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1255 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32610  0.0  0.0  84428  1552 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1256 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32611  0.0  0.0  84428  1556 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1257 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32612  0.0  0.0  84428  1556 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1258 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32613  0.0  0.0  84428  1560 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1259 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32614  0.0  0.0  84432  1564 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1260 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32615  0.0  0.0  84428  1564 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1261 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32616  0.0  0.0  84432  1572 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1262 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32617  0.0  0.0  84424  2524 ?        S    Feb12   0:00 jsuan2_01 -C dom=esbapp -g 4 -i 1263 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32618  0.0  0.0  84424  2064 ?        S    Feb12   0:03 jsuan2_01 -C dom=esbapp -g 4 -i 1264 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32619  0.0  0.0  84432  1564 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1305 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32620  0.0  0.0  84424  1564 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1306 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32621  0.0  0.0  84428  1572 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1307 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32622  0.0  0.0  84428  1568 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1308 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32623  0.0  0.0  84424  1568 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1309 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32624  0.0  0.0  84428  1572 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1310 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32625  0.0  0.0  84424  1572 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1311 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32626  0.0  0.0  84432  1576 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1312 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32627  0.0  0.0  84432  1576 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1313 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32628  0.0  0.0  84428  1576 ?        S    Feb12   0:00 jsuan2_02 -C dom=esbapp -g 4 -i 1314 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32629  0.0  0.0  84424  1580 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1355 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32630  0.0  0.0  84428  1580 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1356 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32631  0.0  0.0  84428  1580 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1357 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32632  0.0  0.0  84428  1588 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1358 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32633  0.0  0.0  84432  1588 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1359 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32634  0.0  0.0  84432  1588 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1360 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32635  0.0  0.0  84428  1592 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1361 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32636  0.0  0.0  84428  1592 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1362 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32637  0.0  0.0  84428  1596 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1363 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32638  0.0  0.0  84432  1596 ?        S    Feb12   0:00 jsuan2_03 -C dom=esbapp -g 4 -i 1364 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32639  0.0  0.0  84432  1596 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1405 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32640  0.0  0.0  84424  1596 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1406 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32641  0.0  0.0  84432  1596 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1407 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32642  0.0  0.0  84428  1596 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1408 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32643  0.0  0.0  84424  1600 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1409 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32644  0.0  0.0  84428  1600 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1410 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32645  0.0  0.0  84424  1608 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1411 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32646  0.0  0.0  84428  1608 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1412 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32647  0.0  0.0  84428  1608 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1413 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32648  0.0  0.0  84432  1612 ?        S    Feb12   0:00 jsuan3_01 -C dom=esbapp -g 4 -i 1414 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32649  0.0  0.0  84424  1604 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1455 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32650  0.0  0.0  84428  1604 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1456 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32651  0.0  0.0  84432  1608 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1457 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32652  0.0  0.0  84428  1608 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1458 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32653  0.0  0.0  84428  1616 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1459 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32654  0.0  0.0  84424  1616 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1460 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32655  0.0  0.0  84428  1616 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1461 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32656  0.0  0.0  84428  1616 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1462 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32657  0.0  0.0  84424  1620 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1463 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32658  0.0  0.0  84432  1624 ?        S    Feb12   0:00 jsuan3_02 -C dom=esbapp -g 4 -i 1464 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32659  0.0  0.0  84432  1624 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1505 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32660  0.0  0.0  84428  1624 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1506 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32661  0.0  0.0  84432  1632 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1507 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32662  0.0  0.0  84428  1632 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1508 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32663  0.0  0.0  84432  1628 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1509 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32664  0.0  0.0  84428  1628 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1510 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32665  0.0  0.0  84428  1632 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1511 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32666  0.0  0.0  84432  1632 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1512 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32667  0.0  0.0  84428  1636 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1513 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32668  0.0  0.0  84432  1640 ?        S    Feb12   0:00 jsuan3_03 -C dom=esbapp -g 4 -i 1514 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32669  0.0  0.0  84432  1640 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1555 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32670  0.0  0.0  84432  1640 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1556 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32671  0.0  0.0  84424  1640 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1557 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32672  0.0  0.0  84428  1644 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1558 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32673  0.0  0.0  84428  1648 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1559 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32674  0.0  0.0  84428  1648 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1560 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32675  0.0  0.0  84432  1648 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1561 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32676  0.0  0.0  84428  1656 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1562 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32677  0.0  0.0  84432  1660 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1563 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32678  0.0  0.0  84432  1660 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1564 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32679  0.0  0.0  84424  1660 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1565 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32680  0.0  0.0  84428  1664 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1566 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32681  0.0  0.0  84428  2584 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1567 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32682  0.0  0.0  84428  2584 ?        S    Feb12   0:00 neijie_01 -C dom=esbapp -g 4 -i 1568 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32683  0.0  0.0  84428  2164 ?        S    Feb12   0:01 neijie_01 -C dom=esbapp -g 4 -i 1569 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32684  0.0  0.0  84432  1664 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1605 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32685  0.0  0.0  84424  1672 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1606 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32686  0.0  0.0  84428  1672 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1607 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32687  0.0  0.0  84432  1672 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1608 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32688  0.0  0.0  84428  1672 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1609 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32689  0.0  0.0  84428  1676 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1610 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32690  0.0  0.0  84428  1680 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1611 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32691  0.0  0.0  84424  1680 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1612 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32692  0.0  0.0  84428  1684 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1613 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32693  0.0  0.0  84428  1692 ?        S    Feb12   0:00 neijie_02 -C dom=esbapp -g 4 -i 1614 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32694  0.0  0.0  84424  1676 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1655 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32695  0.0  0.0  84428  1676 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1656 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32696  0.0  0.0  84428  1676 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1657 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32697  0.0  0.0  84428  1680 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1658 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32698  0.0  0.0  84428  1688 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1659 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32699  0.0  0.0  84428  1688 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1660 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32700  0.0  0.0  84428  1692 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1661 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32701  0.0  0.0  84432  1696 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1662 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32702  0.0  0.0  84424  1696 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1663 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32703  0.0  0.0  84428  2172 ?        S    Feb12   0:00 neijie_03 -C dom=esbapp -g 4 -i 1664 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32704  0.0  0.0  84424  1692 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1705 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32705  0.0  0.0  84432  1696 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1706 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32706  0.0  0.0  84424  1696 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1707 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32707  0.0  0.0  84428  1696 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1708 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32708  0.0  0.0  84432  1700 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1709 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32709  0.0  0.0  84428  1704 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1710 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32710  0.0  0.0  84432  1700 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1711 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32711  0.0  0.0  84432  1704 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1712 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32712  0.0  0.0  84428  1708 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1713 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32713  0.0  0.0  84424  1716 ?        S    Feb12   0:00 pliang1_0 -C dom=esbapp -g 4 -i 1714 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32714  0.0  0.0  84424  1700 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1755 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32715  0.0  0.0  84428  1704 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1756 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32716  0.0  0.0  84432  1704 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1757 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32717  0.0  0.0  84432  1708 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1758 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32718  0.0  0.0  84432  1704 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1759 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32719  0.0  0.0  84428  1708 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1760 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32720  0.0  0.0  84424  1708 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1761 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32721  0.0  0.0  84424  1712 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1762 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32722  0.0  0.0  84424  1712 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1763 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32723  0.0  0.0  84424  1712 ?        S    Feb12   0:00 pliang_01 -C dom=esbapp -g 4 -i 1764 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32724  0.0  0.0  84428  1716 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1805 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32725  0.0  0.0  84424  1724 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1806 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32726  0.0  0.0  84432  1720 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1807 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32727  0.0  0.0  84428  1724 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1808 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32728  0.0  0.0  84424  1724 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1809 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32729  0.0  0.0  84428  1728 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1810 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32730  0.0  0.0  84432  1732 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1811 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32731  0.0  0.0  84424  1728 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1812 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32732  0.0  0.0  84428  1740 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1813 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32733  0.0  0.0  84428  1740 ?        S    Feb12   0:00 pliang_02 -C dom=esbapp -g 4 -i 1814 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32734  0.0  0.0  84424  1728 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1855 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32735  0.0  0.0  84428  1732 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1856 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32736  0.0  0.0  84428  1732 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1857 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32737  0.0  0.0  84428  1740 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1858 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32738  0.0  0.0  84428  1740 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1859 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32739  0.0  0.0  84428  1740 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1860 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32740  0.0  0.0  84432  1748 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1861 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32741  0.0  0.0  84428  1748 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1862 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32742  0.0  0.0  84428  1744 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1863 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32743  0.0  0.0  84432  1748 ?        S    Feb12   0:00 pliang_03 -C dom=esbapp -g 4 -i 1864 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32744  0.0  0.0  84424  1748 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1905 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32745  0.0  0.0  84428  1744 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1906 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32746  0.0  0.0  84424  1752 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1907 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32747  0.0  0.0  84424  1748 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1908 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32748  0.0  0.0  84432  1760 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1909 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32749  0.0  0.0  84428  1756 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1910 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32750  0.0  0.0  84428  1756 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1911 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32751  0.0  0.0  84432  1764 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1912 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32752  0.0  0.0  84432  1764 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1913 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32753  0.0  0.0  84428  2664 ?        S    Feb12   0:00 waiwei_01 -C dom=esbapp -g 4 -i 1914 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32754  0.0  0.0  84428  1768 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1955 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32755  0.0  0.0  84432  1768 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1956 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32756  0.0  0.0  84428  1776 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1957 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32757  0.0  0.0  84432  1784 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1958 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32758  0.0  0.0  84428  1776 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1959 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32759  0.0  0.0  84432  1780 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1960 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32760  0.0  0.0  84424  1784 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1961 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32761  0.0  0.0  84428  1780 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1962 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32762  0.0  0.0  84428  1784 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1963 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32763  0.0  0.0  84428  2208 ?        S    Feb12   0:00 waiwei_02 -C dom=esbapp -g 4 -i 1964 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32764  0.0  0.0  84432  1784 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2005 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32765  0.0  0.0  84428  1788 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2006 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32766  0.0  0.0  84428  1788 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2007 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
+tuxedo   32767  0.0  0.0  84428  1796 ?        S    Feb12   0:00 waiwei_03 -C dom=esbapp -g 4 -i 2008 -u esbver -U /home/tuxedo/esbtux/ULOG -m 0 -A
